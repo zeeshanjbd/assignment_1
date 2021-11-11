@@ -1,0 +1,18 @@
+Task Description
+Create a simple Products CRUD Application with the following user story:
+
+1. Add Product: There should be a button on the home screen (somewhere appropriate) to add a new product.
+    1.1 Product Title, Description, and Price are enough for now.
+
+2. Products Listing: As a user, I should be able to see lists of the Products on the home screen.
+    2.1 Every Product in the list should have edited and delete action buttons with their corresponding backend functionalities should be implemented.
+
+3. Products Listing: Listing screen should have an Export button, which allows you to export the Products list to a CSV file.
+    3.1 CSV export file generation process should be handled using Queue functionality to maintain asynchronous processing.
+
+4. If possible, Write a PHPUnit test for at least one Controller function i.e. either for Create or Edit/Update method.
+
+Note: 
+1. No User Authentication and No Design. For backend use either Laravel or Symfony PHP framework and for frontend use React or Vue with Bootstrap. Again, no fancy design is required, just use the basic templating. The evaluation mainly depends on your implementation. 
+
+2. Upload it on GitHub and share the repo URL
